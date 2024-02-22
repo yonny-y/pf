@@ -1,0 +1,92 @@
+main{
+    text-align: center;
+}
+section{
+    margin: 0 auto;
+    width: 600px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+    margin-top: 60px;
+    text-align: center;
+    border-bottom: 5px solid #ccc;
+    border-image: linear-gradient(to left, #56ab2f, #a8e063);
+    border-image-slice: 1;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+h4{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 24px;
+    display: inline-block;
+    border-bottom: 3px solid #ccc;
+}
+p{
+    font-size: 16px;
+    line-height: 2;
+}
+.parallax-bg {
+    box-sizing: border-box;
+    color: #FFF;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 10%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .parallax-bg {
+    background-image: url('../images/green.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+table{
+    margin: 0 auto;
+    margin-bottom: 100px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+th, td{
+    padding-bottom: 15px;
+}
+th{
+    width: 30%;
+}
+td{
+    width: 70%;
+    text-align: start;
+    padding-left: 30px;
+}
+caption{
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+.element {
+    /* 最初は非表示 */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(30px);
+    transition: opacity 1s, visibility 1s, transform 1s;
+  }
+  /* フェードイン時に入るクラス */
+  .is-fadein {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+@media screen and (max-width:640px){
+    section{
+        max-width: 100%;
+    }
+}

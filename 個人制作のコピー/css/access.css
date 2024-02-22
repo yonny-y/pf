@@ -1,0 +1,71 @@
+main{
+    text-align: center;
+}
+
+h3{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 5px solid #ccc;
+    border-image: linear-gradient(to left, #56ab2f, #a8e063);
+    border-image-slice: 1;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+.parallax-bg {
+    box-sizing: border-box;
+    color: #FFF;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 10%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .parallax-bg {
+    background-image: url('../images/green2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+table{
+    margin: 0 auto;
+    margin-bottom: 60px;    
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+th,td{
+    font-size: 20px;
+    width: 300px;
+    padding: 30px;
+    border: 2px dashed #000;
+    border-right:none;
+    border-left: none;
+}
+th{
+    width: 35%;
+    color: #82A903;
+    font-weight: bold;
+}
+td{
+    text-align: left;
+}
+p{
+    text-align: center;
+}
+
+@media screen and (max-width:640px){
+    th{
+        padding: 20px 10px;
+    }
+    span{
+        display: inline-block;
+    }
+    td{
+        line-height: 1.5;
+    }
+}
